@@ -18,11 +18,17 @@ namespace ASPNETWEBCORE.Models.data
         {
             var claimsIdentity = await base.GenerateClaimsAsync(user);
             var address = await _context.UserAddresses.Include(x => x.Address).FirstOrDefaultAsync(x => x.UserId == user.Id);
-           
+            /*
+            var roles = await _context.Role.Include(x => x.UserId).FirstOrDefaultAsync(x => x.UserId == user.Id);
+            */
+
 
             claimsIdentity.AddClaim(new Claim("UserId", user.Id ?? ""));
             claimsIdentity.AddClaim(new Claim("DisplayName", $"{user.FirstName} {user.LastName}" ?? ""));
             claimsIdentity.AddClaim(new Claim("Address", $"{address?.Address.AddressLine}, {address?.Address.PostalCode} {address?.Address.City}" ?? ""));
+            /*
+            claimsIdentity.AddClaim(new Claim("Role", $"{roles?.Role2.Name}" ?? ""));
+            */
             return claimsIdentity;
         }
 

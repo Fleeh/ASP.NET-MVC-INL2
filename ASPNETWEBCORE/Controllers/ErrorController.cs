@@ -4,9 +4,22 @@ namespace ASPNETWEBCORE.Controllers
 {
     public class ErrorController : Controller
     {
-        public IActionResult Index()
+        [Route("Error/{statusCode}")]
+        public IActionResult HttpStatusCodeHandler(int statusCode)
         {
-            return View();
+            switch (statusCode)
+            {
+                case 404:
+                    ViewBag.errorMessage = "Page Not Found";
+                    break;
+            }
+
+            return View("NotFound");
         }
+
+
+
+
+
     }
 }

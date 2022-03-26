@@ -15,13 +15,20 @@ namespace ASPNETWEBCORE.Models.data
         public virtual DbSet<ServiceEntity> Services { get; set; }
         public virtual DbSet<ApplicationAddress> Addresses { get; set; }
         public virtual DbSet<ApplicationUserAddress> UserAddresses { get; set; }
- 
+        /*
+        public virtual DbSet<Role2> Role2 { get; set; }
+        public virtual DbSet<Roles> Role { get; set; }
+        */
 
-        
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ApplicationUserAddress>()
                 .HasKey(c => new { c.UserId, c.AddressId });
+
+            //modelBuilder.Entity<Roles>()
+            //   .HasKey(c => new { c.UserId, c.RoleId });
 
             modelBuilder.Entity<IdentityUserLogin<string>>()
                 .HasKey("LoginProvider", "ProviderKey");

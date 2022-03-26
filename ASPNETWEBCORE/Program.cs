@@ -10,6 +10,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("Sql")));
 
 builder.Services.AddScoped<IAddressManager, AddressManager>();
+/*
+builder.Services.AddScoped<IRoleManager, RoleManager>();
+*/
 builder.Services.AddIdentity<AppUser, IdentityRole>( x =>
 {
     x.User.RequireUniqueEmail = true;
@@ -31,9 +34,6 @@ builder.Services.AddAuthorization(x =>
 
 
 
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -43,8 +43,8 @@ if (!app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseStatusCodePages();
-    app.UseExceptionHandler("/Home/Error");
+    app.UseStatusCodePagesWithReExecute("/Error/{0}");
+    // app.UseExceptionHandler("/Home/Error"); //
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }

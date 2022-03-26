@@ -7,5 +7,10 @@ namespace ASPNETWEBCORE.Models.Viewmodels
         public ApplicationUserAddress Address { get; set; }
         public AppUser User { get; set; }
 
+        /*
+        public Roles Roles { get; set; }
+        */
+
     }
 }
+
