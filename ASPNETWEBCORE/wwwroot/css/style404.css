@@ -1,0 +1,75 @@
+﻿
+#my-picture {
+    padding-left: 525px;
+    padding-top: 85px;
+    padding-bottom: 200px;
+}
+
+#finish {
+    padding-top: 50px;
+}
+
+.bg-blackser {
+    background-color: #00152E;
+    color: #ffffff;
+    height: 680px;
+}
+
+#finish .cataloge .Omnivus {
+    padding-top: 100px;
+    padding-right: 200px;
+}
+
+#finish .cataloge .Workinghours {
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+#finish .cataloge .Omnivus h1 {
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
+}
+
+#finish .cataloge .Omnivus h2 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #C2D1E2;
+}
+
+#finish .cataloge .Omnivus h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 15px;
+    color: #C2D1E2;
+}
+
+#finish .cataloge {
+    display: flex;
+}
+
+    #finish .cataloge .Workinghours h1 {
+        font-size: 34px;
+        font-family: "Karla", sans-serif;
+    }
+
+    #finish .cataloge .Workinghours h2 {
+        font-size: 20px;
+        line-height: 35px;
+        color: #C2D1E2;
+    }
+
+    #finish .cataloge .Workinghours h3 {
+        font-size: 16px;
+        line-height: 25px;
+        color: #C2D1E2;
+    }
+
+#bubbles {
+    padding-top: 350px;
+}
+
+.copyright {
+    padding-left: 450px;
+    padding-top: 170px;
+    color: #C2D1E2;
+}

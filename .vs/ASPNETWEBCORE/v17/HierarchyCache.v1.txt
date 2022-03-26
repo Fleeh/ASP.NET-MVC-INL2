@@ -1,0 +1,314 @@
+﻿++Solution 'ASPNETWEBCORE' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ASPNETWEBCORE.sln
+++ASPNETWEBCORE
+i:{00000000-0000-0000-0000-000000000000}:ASPNETWEBCORE
+++Connected Services 
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:>427
+++No service dependencies discovered
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:>428
+++Dependencies
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:>426
+++Analyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:analyzers
+++Frameworks
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:frameworks
+++Properties
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\properties\
+++launchSettings.json
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\properties\launchsettings.json
+++wwwroot
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\
+++css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\css\
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\
+++contact.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\css\contact.css
+++style.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\css\style.css
+++style404.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\css\style404.css
+++styleservice.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\css\styleservice.css
+++images
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\
+++js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\js\
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\
+++contact.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\js\contact.js
+++site.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\js\site.js
+++lib
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\
+++favicon.ico
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\favicon.ico
+++Controllers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\controllers\
+++ContactController.cs
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\controllers\contactcontroller.cs
+++ErrorController.cs
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\controllers\errorcontroller.cs
+++HomeController.cs
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\controllers\homecontroller.cs
+++ServicesController.cs
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\controllers\servicescontroller.cs
+++Models
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\models\
+++ErrorViewModel.cs
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\models\errorviewmodel.cs
+++Views
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\
+++Contact
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\contact\
+++Index.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\contact\index.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\error\index.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\home\index.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\services\index.cshtml
+++Error
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\error\
+++Home
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\home\
+++Services
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\services\
+++Shared
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\shared\
+++_Layout.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\shared\error.cshtml
+++_ViewImports.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\_viewstart.cshtml
+++appsettings.json
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\appsettings.json
+++appsettings.Development.json
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\appsettings.development.json
+++Program.cs
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\program.cs
+++Microsoft.AspNetCore.Analyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\sdk\6.0.102\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\microsoft.netcore.app
+++About Us.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\about us.svg
+++background.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\background.svg
+++backgroundform.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\backgroundform.svg
+++backgroundss.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\backgroundss.svg
+++bg.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\bg.svg
+++blue dot.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\blue dot.svg
+++blue text.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\blue text.svg
+++blue-circle.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\blue-circle.svg
+++bluething.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\bluething.svg
+++bluetriangle.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\bluetriangle.svg
+++Book a Meeting.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\book a meeting.svg
+++bubbles.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\bubbles.svg
+++Contact Us.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\contact us.svg
+++Does any industry face a more complex audience journey and marketing sales process than B2B technology..svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\does any industry face a more complex audience journey and marketing sales process than b2b technology..svg
+++Estimate!!!.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\estimate!!!.svg
+++finishbg.png
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\finishbg.png
+++Get In Touch.png
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\get in touch.png
+++gridcard.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\gridcard.svg
+++Group 13.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\group 13.svg
+++Group 14.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\group 14.svg
+++groupblue.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\groupblue.svg
+++grouptest.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\grouptest.svg
+++Home    Contact.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\home    contact.svg
+++Home    Services.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\home    services.svg
+++illustration.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\illustration.svg
+++Intro.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\intro.svg
+++lightbluebg.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\lightbluebg.svg
+++line.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\line.svg
+++overely.png
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\overely.png
+++overley.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\overley.svg
+++person-male.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\person-male.svg
+++red-circle.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\red-circle.svg
+++Services.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\services.svg
+++shadow.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\shadow.svg
+++shadowtriangle.svg
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\images\shadowtriangle.svg
+++bootstrap
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\
+++jquery
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery\
+++jquery-validation
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\views\shared\_layout.cshtml.css
+++dist
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery\dist\
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery\license.txt
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{dde5637a-6fe8-46bc-bb7c-5b518f218eb7}:c:\users\ralley\desktop\skola\aspnetcoremvc\aspnetwebcore\aspnetwebcore\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map

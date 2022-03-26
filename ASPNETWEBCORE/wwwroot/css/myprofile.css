@@ -1,0 +1,260 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Poppins:wght@100;400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: "Karla", sans-serif;
+    color: #002249;
+}
+
+a {
+    color: #6c90b9;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #002249;
+    }
+
+.btn {
+    border-radius: 0;
+    padding: 1rem 2.55rem;
+}
+
+.btn-main {
+    color: #ffffff;
+    background-color: #006de8;
+    border-color: #006de8;
+}
+
+    .btn-main:hover {
+        color: #ffffff;
+        background-color: #0052af;
+    }
+
+.container {
+    padding: 0;
+}
+
+.bg-blue-gradient {
+    background: white;
+    background: radial-gradient(circle, white 20%, #a9c7ec 100%);
+    height: 1400px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "branding" "mainmenu";
+}
+
+#branding {
+    grid-area: branding;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+    #branding h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    #branding p {
+        font-family: "Karla", sans-serif;
+        font-size: 15px;
+        color: #6c90b9;
+        line-height: 0.5;
+    }
+
+#top-menu {
+    display: none;
+    grid-area: topmenu;
+    border-bottom: 1px solid #a9c7ec;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    margin-left: 100px;
+}
+
+    #top-menu .social a {
+        margin-left: 1rem;
+    }
+
+#main-menu {
+    grid-area: mainmenu;
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+    #main-menu .menu-items {
+        margin-right: 2rem;
+    }
+
+        #main-menu .menu-items a {
+            margin-left: 4rem;
+        }
+
+.border {
+    border-color: black !important;
+}
+
+@media (min-width: 992px) {
+    .header-grid {
+        display: grid;
+        grid-template-columns: 274px auto;
+        grid-template-areas: "branding topmenu" "branding mainmenu";
+    }
+
+    #top-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+#signup,
+#signin {
+    background-color: #384a61;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+    #signup .title h1,
+    #signin .title h1 {
+        font-size: 60px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #signup .title p,
+    #signin .title p {
+        color: #86b2e6;
+    }
+
+    #signup a:hover,
+    #signin a:hover {
+        color: #c1d0de;
+        text-decoration: underline;
+    }
+
+    #signup .form-control,
+    #signin .form-control {
+        background-color: transparent;
+        border: 2px solid #405670;
+        padding: 25px 40px;
+        color: #ffffff;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    #signup .error,
+    #signin .error {
+        display: block;
+        text-align: left;
+        padding-left: 270px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        color: rgb(255, 0, 0) !important;
+        font-size: 0.8em;
+    }
+
+.danger {
+    display: block;
+    text-align: left;
+    padding-left: 270px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(255, 0, 0) !important;
+    font-size: 0.8em;
+}
+
+#signin ::placeholder {
+    color: #fcfcfc;
+    opacity: 1;
+}
+
+
+
+
+.Emailform {
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+
+#texten1 {
+    margin-top: 30px;
+}
+
+#texten2 {
+    margin-top: 30px;
+}
+
+#texten3 {
+    margin-top: 30px;
+}
+
+#texten4 {
+    margin-top: 30px;
+}
+
+#texten5 {
+    margin-top: 30px;
+}
+
+#texten6 {
+    margin-top: 30px;
+}
+
+#texten7 {
+    margin-top: 30px;
+}
+
+#texten8 {
+    margin-top: 30px;
+}
+
+
+#summary {
+    padding-right: 25px;
+    padding-top: 30px;
+}
+
+#nameinformation{
+    font-size:50px;
+    color:white !important;
+
+}
+
+#addressinformation {
+    font-size: 30px;
+    color: white !important;
+    padding-top: 15px;
+}
+
+#emailinformation {
+    font-size: 30px;
+    color: white !important;
+    padding-top: 15px;
+}
+
+#myprofilename {
+    position: absolute;
+    right: 570px;
+}
+
+#mydisplayname {
+    position: absolute;
+    right: 405px;
+}
+

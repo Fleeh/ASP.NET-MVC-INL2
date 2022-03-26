@@ -1,0 +1,117 @@
+﻿@model SignUpModel
+
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/stylesignup.css">
+
+
+    <div class="bg-blue-gradient">
+        <div class="container">
+            <!-- header -->
+            <div class="header-grid">
+                <div id="branding">
+                    <h1>OmniVus.</h1>
+                    <p>IT Service & Technology</p>
+                </div>
+                <nav id="top-menu">
+                    <a href="mailto:info@domain.com">info@domain.com</a>
+                    <div class="social">
+                        <a href="https://facebook.com">facebook</a>
+                        <a href="https://twitter.com">twitter</a>
+                        <a href="https://linkedin.com">linkedin</a>
+                        <a href="https://youtube.com">youtube</a>
+                    </div>
+                </nav>
+                <nav id="main-menu">
+                    <div class="menu-items">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Services" asp-action="Index">Services</a>
+                        <a asp-controller="Contact" asp-action="Index">Contact</a>
+                    </div>
+                    
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="Authentication" asp-action="SignOut" class="btn btn-main">Logout</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Authentication" asp-action="SignIn" class="btn btn-main">Login</a>
+                    }
+
+                </nav>
+            </div>
+            <div id="showcase">
+                
+            </div>
+        </div>
+
+    <div class="d-flex align-content-center align-items-center">
+        <div class="container">
+            <div id="signup">   
+                <div class="text-center">
+                         <div class="title">
+                             <h1>@ViewData["Title"]</h1>
+                             <p>Are you already a member?: <a asp-action="SignIn">Login here</a></p>
+                         </div>                    
+                             <form asp-action="SignUp">
+                                 <div class="Emailform">
+                                     <input asp-for="Email" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten1" placeholder="Enter your email address" />
+                                     <small><span asp-validation-for="Email" class="error"></span></small>                              
+                                 </div>
+                                 <div class="Passwordform">
+                                     <input asp-for="Password" type="password" autocomplete="off" class="form-control" style="width:800px;" id="texten2" placeholder="Enter your password" />
+                                     <small><span asp-validation-for="Password" class="error"></span></small>
+                                </div>
+
+                                <div class="ConfirmPasswordform">
+                                     <input asp-for="ConfirmPassword" type="password" autocomplete="off" class="form-control" style="width:800px;" id="texten3" placeholder="Confirm your password" />
+                                     <small><span asp-validation-for="ConfirmPassword" class="error"></span></small>
+                                </div>
+
+                                <div class="Firstnameform">
+                                     <input asp-for="FirstName" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten4" placeholder="Enter your firstname" />
+                                     <small><span asp-validation-for="FirstName" class="error"></span></small>                              
+                                 </div>
+
+                                 <div class="Lastnameform">
+                                     <input asp-for="LastName" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten5" placeholder="Enter your lastname" />
+                                     <small><span asp-validation-for="LastName" class="error"></span></small>                              
+                                 </div>
+
+                                 <div class="Addressform">
+                                     <input asp-for="AddressLine" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten6" placeholder="Enter your address" />
+                                     <small><span asp-validation-for="AddressLine" class="error"></span></small>                              
+                                 </div>
+
+                                  <div class="Postalcodeform">
+                                     <input asp-for="PostalCode" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten7" placeholder="Enter your Postalcode" />
+                                     <small><span asp-validation-for="PostalCode" class="error"></span></small>                              
+                                 </div>
+
+                                  <div class="Addressform">
+                                     <input asp-for="City" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten8" placeholder="Enter your City" />
+                                     <small><span asp-validation-for="City" class="error"></span></small>                              
+                                 </div>
+                               <div id="summary">
+                                <div asp-validation-summary=ModelOnly></div>
+                               </div>
+                                <button type="submit" class="btn btn-primary">@ViewData["Title"]</button>   
+                                
+                             </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+
+   <div style="height: 0px"></div>  
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+

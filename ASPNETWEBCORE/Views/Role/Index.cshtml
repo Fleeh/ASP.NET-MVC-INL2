@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Handle Roles";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+<link rel="stylesheet" href="~/css/roles.css">
+
+    <div class="bg-blue-gradient">
+        <div class="container">
+            <!-- header -->
+            <div class="header-grid">
+                <div id="branding">
+                    <h1>OmniVus.</h1>
+                    <p>IT Service & Technology</p>
+                </div>
+                <nav id="top-menu">
+                    <a href="mailto:info@domain.com">info@domain.com</a>
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <div id="mydisplayname">
+                            <a href="#">@User.FindFirst("DisplayName").Value</a>
+                        </div>
+                        <div id="myprofilename">
+                        <a asp-controller="Profile" asp-action="Index">My Profile</a>
+                        </div>
+
+                        @if (User.IsInRole("admin"))
+                        {
+                            <a asp-controller="Role" asp-action="Index">Handle Roles</a>
+                        }                      
+                        
+                    }
+                    else
+                    {
+                    <div class="social">
+                        <a href="https://facebook.com">facebook</a>
+                        <a href="https://twitter.com">twitter</a>
+                        <a href="https://linkedin.com">linkedin</a>
+                        <a href="https://youtube.com">youtube</a>
+                        </div>
+                    }                                     
+                </nav>
+                <nav id="main-menu">
+                    <div class="menu-items">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Services" asp-action="Index">Services</a>
+                        <a asp-controller="Contact" asp-action="Index">Contact</a>
+                    </div>
+                    
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="Authentication" asp-action="SignOut" class="btn btn-main">Logout</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Authentication" asp-action="SignIn" class="btn btn-main">Login</a>
+                    }
+
+                </nav>
+            </div>
+            <div id="showcase">
+                
+            </div>
+        </div>
+    
+
+    <div class="d-flex align-content-center align-items-center vh-100">
+        <div class="container">
+            <div id="signin">   
+                <div class="text-center">
+                         <div class="title">
+                             <h1>@ViewData["Title"]</h1>
+                             <p>Login with your email address and your password. Not a Member?: <a asp-action="SignUp">Create an account here</a></p>
+                         </div>                    
+                             <div>
+                                
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+            
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

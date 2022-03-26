@@ -1,0 +1,316 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Poppins:wght@100;400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: "Karla", sans-serif;
+    color: #002249;
+}
+
+hr {
+    margin: 0px;
+}
+
+a {
+    color: #6c90b9;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #002249;
+    }
+
+.btn {
+    border-radius: 0;
+    padding: 1rem 2.55rem;
+}
+
+.btn-main {
+    color: #ffffff;
+    background-color: #006de8;
+    border-color: #006de8;
+}
+
+    .btn-main:hover {
+        color: #ffffff;
+        background-color: #0052af;
+    }
+
+.container {
+    padding: 0;
+}
+
+.bg-blue-gradient {
+    background: white;
+    background: radial-gradient(circle, white 20%, #a9c7ec 100%);
+    height: 500px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "branding" "mainmenu";
+}
+
+#branding {
+    grid-area: branding;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+    #branding h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    #branding p {
+        font-family: "Karla", sans-serif;
+        font-size: 15px;
+        color: #6c90b9;
+        line-height: 0.5;
+    }
+
+#top-menu {
+    display: none;
+    grid-area: topmenu;
+    border-bottom: 1px solid #a9c7ec;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    margin-left: 100px;
+}
+
+    #top-menu .social a {
+        margin-left: 1rem;
+    }
+
+#main-menu {
+    grid-area: mainmenu;
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+    #main-menu .menu-items {
+        margin-right: 2rem;
+    }
+
+        #main-menu .menu-items a {
+            margin-left: 4rem;
+        }
+
+.border {
+    border-color: black !important;
+}
+
+@media (min-width: 992px) {
+    .header-grid {
+        display: grid;
+        grid-template-columns: 274px auto;
+        grid-template-areas: "branding topmenu" "branding mainmenu";
+    }
+
+    #top-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#sides {
+    display: flex;
+}
+
+#leftside {
+    padding-left: 50px;
+}
+
+#rightside {
+    padding-right: 50px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+
+
+#firstnametest {
+    color: black;
+    height: 60px;
+    padding-left: 25px;
+    border: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#lastnametest {
+    color: black;
+    height: 60px;
+    padding-left: 25px;
+    border: #ffffff;
+    margin-bottom: 30px;
+}
+
+
+#placeholder ::placeholder {
+    color: #6B93AA;
+    opacity: 1;
+}
+
+#buttonmoves {
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+#floatingInputValue {
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 25px;
+    border: #ffffff;
+}
+
+#showcase .service {
+    padding-left: 480px;
+    padding-top: 120px;
+}
+
+#pic2 {
+    padding-left: 60px;
+}
+
+.bg-gray-gradient {
+    background-color: #F7FCFF;
+    color: black;
+    height: 840px;
+}
+
+#texting p {
+    padding-top: 20px;
+    font-size: 60px;
+    padding-left: 12px;
+    line-height: 70px;
+}
+
+#img1 {
+    padding-top: 20px;
+}
+
+#img2 {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+
+.bg-blackser {
+    background-color: #00152E;
+    color: #ffffff;
+    height: 680px;
+}
+
+#finish .cataloge .Omnivus {
+    padding-top: 100px;
+    padding-right: 250px;
+}
+
+#finish .cataloge .Workinghours {
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+#finish .cataloge .Omnivus h1 {
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
+}
+
+#finish .cataloge .Omnivus h2 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #C2D1E2;
+}
+
+#finish .cataloge .Omnivus h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 15px;
+    color: #C2D1E2;
+}
+
+#finish .cataloge {
+    display: flex;
+}
+
+    #finish .cataloge .Workinghours h1 {
+        font-size: 34px;
+        font-family: "Karla", sans-serif;
+    }
+
+    #finish .cataloge .Workinghours h2 {
+        font-size: 20px;
+        line-height: 35px;
+        color: #C2D1E2;
+    }
+
+    #finish .cataloge .Workinghours h3 {
+        font-size: 16px;
+        line-height: 25px;
+        color: #C2D1E2;
+    }
+
+#bubbles {
+    padding-top: 350px;
+}
+
+.copyright {
+    padding-left: 450px;
+    padding-top: 170px;
+    color: #C2D1E2;
+}
+
+#name-error {
+    position: absolute;
+    padding-left: 20px;
+    top: 805px;
+    color: red;
+}
+
+#email-error {
+    position: absolute;
+    padding-left: 20px;
+    top: 895px;
+    color: red;
+}
+
+#message-error {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 6px;
+    color: red;
+}
+
+#submit-error {
+    position: absolute;
+    color: red;
+    left: 375px;
+    top: 1065px;
+}
+
+#submit-success {
+    position: absolute;
+    color: rgb(17, 212, 60);
+    left: 375px;
+    top: 1065px;
+}
+
+#placeholder span i {
+    color: rgb(17, 212, 60);
+}
+
+#myprofilename {
+    position: absolute;
+    right: 570px;
+}
+
+#mydisplayname {
+    position: absolute;
+    right: 405px;
+}

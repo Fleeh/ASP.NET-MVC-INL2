@@ -1,0 +1,85 @@
+﻿@model SignInModel
+
+@{
+    ViewData["Title"] = "Sign In";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+<link rel="stylesheet" href="~/css/stylesignin.css">
+
+    <div class="bg-blue-gradient">
+        <div class="container">
+            <!-- header -->
+            <div class="header-grid">
+                <div id="branding">
+                    <h1>OmniVus.</h1>
+                    <p>IT Service & Technology</p>
+                </div>
+                <nav id="top-menu">
+                    <a href="mailto:info@domain.com">info@domain.com</a>
+                    <div class="social">
+                        <a href="https://facebook.com">facebook</a>
+                        <a href="https://twitter.com">twitter</a>
+                        <a href="https://linkedin.com">linkedin</a>
+                        <a href="https://youtube.com">youtube</a>
+                    </div>
+                </nav>
+                <nav id="main-menu">
+                    <div class="menu-items">
+                        <a asp-controller="Home" asp-action="Index">Home</a>
+                        <a asp-controller="Services" asp-action="Index">Services</a>
+                        <a asp-controller="Contact" asp-action="Index">Contact</a>
+                    </div>
+                    
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="Authentication" asp-action="SignOut" class="btn btn-main">Logout</a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Authentication" asp-action="SignIn" class="btn btn-main">Login</a>
+                    }
+
+                </nav>
+            </div>
+            <div id="showcase">
+                
+            </div>
+        </div>
+    
+
+    <div class="d-flex align-content-center align-items-center vh-100">
+        <div class="container">
+            <div id="signin">   
+                <div class="text-center">
+                         <div class="title">
+                             <h1>@ViewData["Title"]</h1>
+                             <p>Login with your email address and your password. Not a Member?: <a asp-action="SignUp">Create an account here</a></p>
+                         </div>                    
+                             <div>
+                                 <form asp-action="SignIn">
+                                 <div class="Emailform">
+                                     <input asp-for="Email" type="text" autocomplete="off" class="form-control"  style="width:800px;" id="texten1" placeholder="Enter your email address" />
+                                     <small><span asp-validation-for="Email" class="error"></span></small>                              
+                                 </div>
+                                 <div class="Passwordform">
+                                     <input asp-for="Password" type="password" autocomplete="off" class="form-control" style="width:800px;" id="texten2" placeholder="Enter your password" />
+                                     <small><span asp-validation-for="Password" class="error"></span></small>
+                                </div>
+                               <div id="summary">
+                                <div asp-validation-summary=ModelOnly></div>
+                               </div>
+                                <button type="submit" class="btn btn-primary">@ViewData["Title"]</button>                    
+                             </form>
+                             </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>
+            
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

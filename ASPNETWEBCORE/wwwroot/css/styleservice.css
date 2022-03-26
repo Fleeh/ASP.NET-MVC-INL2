@@ -1,0 +1,273 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Poppins:wght@100;400;700&family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: "Karla", sans-serif;
+    color: #002249;
+}
+
+a {
+    color: #6c90b9;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #002249;
+    }
+
+.btn {
+    border-radius: 0;
+    padding: 1rem 2.55rem;
+}
+
+.btn-main {
+    color: #ffffff;
+    background-color: #006de8;
+    border-color: #006de8;
+}
+
+    .btn-main:hover {
+        color: #ffffff;
+        background-color: #0052af;
+    }
+
+.container {
+    padding: 0;
+}
+
+.bg-blue-gradient {
+    background: white;
+    background: radial-gradient(circle, white 20%, #a9c7ec 100%);
+    height: 500px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "branding" "mainmenu";
+}
+
+#branding {
+    grid-area: branding;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+    #branding h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    #branding p {
+        font-family: "Karla", sans-serif;
+        font-size: 15px;
+        color: #6c90b9;
+        line-height: 0.5;
+    }
+
+#top-menu {
+    display: none;
+    grid-area: topmenu;
+    border-bottom: 1px solid #a9c7ec;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    margin-left: 100px;
+}
+
+    #top-menu .social a {
+        margin-left: 1rem;
+    }
+
+#main-menu {
+    grid-area: mainmenu;
+    padding-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+    #main-menu .menu-items {
+        margin-right: 2rem;
+    }
+
+        #main-menu .menu-items a {
+            margin-left: 4rem;
+        }
+
+.border {
+    border-color: black !important;
+}
+
+@media (min-width: 992px) {
+    .header-grid {
+        display: grid;
+        grid-template-columns: 274px auto;
+        grid-template-areas: "branding topmenu" "branding mainmenu";
+    }
+
+    #top-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+#showcase .service {
+    padding-left: 550px;
+    padding-top: 150px;
+}
+
+#pic2 {
+    padding-left: 50px;
+}
+
+#grid .grid-container {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-auto-rows: 270px;
+    grid-gap: 25px;
+    padding-left: 280px;
+    padding-top: 200px;
+}
+
+    #grid .grid-container .card-body {
+        background-color: #002249;
+        color: white;
+    }
+
+#bluedot1 {
+    position: relative;
+    top: -70px;
+    left: 15px;
+    width: 55px;
+}
+
+#bluedot2 {
+    position: relative;
+    top: -140px;
+    left: 15px;
+    width: 55px;
+    z-index: 1;
+}
+
+#bluedot3 {
+    position: relative;
+    top: -70px;
+    left: 15px;
+    width: 55px;
+}
+
+#bluedot4 {
+    position: relative;
+    top: -70px;
+    left: 15px;
+    width: 55px;
+}
+
+#bluedot5 {
+    position: relative;
+    top: -70px;
+    left: 15px;
+    width: 55px;
+}
+
+#bluedot6 {
+    position: relative;
+    top: -70px;
+    left: 15px;
+    width: 55px;
+}
+
+.card-text {
+    padding-left: 75px;
+}
+
+#bluetext {
+    position: relative;
+    top: -180px;
+    width: 255px;
+    background-color: #0066FF;
+}
+
+#finish {
+    padding-top: 140px;
+}
+
+.bg-blackser {
+    background-color: #00152E;
+    color: #ffffff;
+    height: 680px;
+}
+
+#finish .cataloge .Omnivus {
+    padding-top: 100px;
+    padding-right: 250px;
+}
+
+#finish .cataloge .Workinghours {
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+#finish .cataloge .Omnivus h1 {
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
+}
+
+#finish .cataloge .Omnivus h2 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #C2D1E2;
+}
+
+#finish .cataloge .Omnivus h3 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 15px;
+    color: #C2D1E2;
+}
+
+#finish .cataloge {
+    display: flex;
+}
+
+    #finish .cataloge .Workinghours h1 {
+        font-size: 34px;
+        font-family: "Karla", sans-serif;
+    }
+
+    #finish .cataloge .Workinghours h2 {
+        font-size: 20px;
+        line-height: 35px;
+        color: #C2D1E2;
+    }
+
+    #finish .cataloge .Workinghours h3 {
+        font-size: 16px;
+        line-height: 25px;
+        color: #C2D1E2;
+    }
+
+#bubbles {
+    padding-top: 350px;
+}
+
+.copyright {
+    padding-left: 450px;
+    padding-top: 170px;
+    color: #C2D1E2;
+}
+
+#myprofilename {
+    position: absolute;
+    right: 570px;
+}
+
+#mydisplayname {
+    position: absolute;
+    right: 405px;
+}
